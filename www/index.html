@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Persatuan Rugby Union Indonesia</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- Needed for Cordova/PhoneGap (will be a 404 during development) -->
+	<script src="/js/main.js"></script>
+    <script src="cordova.js"></script>
+  </head>
+  <body ng-app="todo">
+  <ion-side-menus enable-menu-with-back-views="true">
+
+    <!-- Center content -->
+    <ion-side-menu-content drag-content="true">
+      <ion-header-bar class="bar-assertive" img src="img/header.png">
+      <button class="button icon-left ion-home"></button>
+      <img src="img/icon.png">
+        <h1 class="title">Persatuan Rugby Union Indonesia</h1>
+              <div class="button">
+    <button class="button button-icon icon ion-navicon"></button>
+    </div>
+      </ion-header-bar>
+      <ion-content>
+      </ion-content>
+    </ion-side-menu-content>
+
+    <!-- Left menu -->
+    <ion-side-menu side="right">
+      
+		<ion-list>
+		<ion-item><i class="icon ion-star"></i> News</ion-item>
+		</ion-list>
+		<ion-list>
+		<ion-item><i class="icon ion-trophy"></i> Fixtures & Result</ion-item>
+		</ion-list>
+		<ion-list>
+		<ion-item><i class="icon ion-camera"></i> Teammate Photos</ion-item>
+		</ion-list>
+    <ion-list>
+    <ion-item><i class="icon ion-steam"></i> Rugby 101</ion-item>
+    </ion-list>
+    <ion-list>
+    <ion-item><i class="icon ion-shirt"></i> Rugby Clubs</ion-item>
+    </ion-list>
+    </ion-side-menu>
+
+  </ion-side-menus>
+</body>
+</html>
